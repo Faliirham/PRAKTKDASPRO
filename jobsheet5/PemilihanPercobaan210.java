@@ -36,7 +36,7 @@ public class PemilihanPercobaan210 {
             System.out.println("Nilai Total anda : " +total+ " Grade anda adalah " +grade);
             
         
-       
+       input210.close();
     }
 
 }

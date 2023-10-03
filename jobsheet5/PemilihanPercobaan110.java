@@ -11,6 +11,7 @@ public class PemilihanPercobaan110 {
         String pesan = bilangan == 0 ? "Bilangan genap" : "Bilangan ganjil";
         System.out.print("Angka " +angka+ " adalah " + pesan );
         
+        input10.close();
     }
     
 }

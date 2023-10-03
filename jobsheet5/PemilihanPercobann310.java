@@ -31,7 +31,7 @@ public class PemilihanPercobann310 {
             System.out.print(angka1 + "/" + angka2 + "=" +hasil); 
             break;
         
-           
        }
+       input10.close();
     }
 }
