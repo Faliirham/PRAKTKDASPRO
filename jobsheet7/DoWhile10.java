@@ -22,12 +22,14 @@ public class DoWhile10 {
                     jatahCuti -= jumlahHari;
                     System.out.println("Sisa jatah cuti : " +jatahCuti);
                 }else {
-                    System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                    break;
+                    System.out.println("Jumlah  hari cuti yang anda minta melebihi jatah cuti ");
+                    ;
                 }
+            }else{
+                System.out.print("Program berhenti");
             }
 
-        } while (jatahCuti > 0);
+        } while (konfirmasi.equalsIgnoreCase("y") && jatahCuti > 0);
 
         sc.close();
     }
