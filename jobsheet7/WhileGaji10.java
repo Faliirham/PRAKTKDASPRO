@@ -9,7 +9,7 @@ public class WhileGaji10 {
         double gajiLembur = 0, totalGajiLembur = 0;
         String jabatan;
 
-        System.out.print("Maukkan jumlah karyawan : ");
+        System.out.print("Masukkan jumlah karyawan : ");
         jumlahKaryawan = scan.nextInt();
 
         int i = 0;
@@ -22,14 +22,14 @@ public class WhileGaji10 {
             i++;
 
             if (jabatan.equalsIgnoreCase("direktur")) {
-                continue;
+                continue;  
             }else if (jabatan.equalsIgnoreCase("manager")) {
                 gajiLembur = jumlahJamLembur * 100000; 
             }else if (jabatan.equalsIgnoreCase("karyawan")){
                 gajiLembur = jumlahJamLembur * 75000;
-            }else{
+            /* }else{
                 System.out.println("Jabatan Invalid");
-                continue;
+                continue;*/
             }
             
             totalGajiLembur += gajiLembur;
