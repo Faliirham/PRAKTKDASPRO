@@ -44,18 +44,17 @@ public class BioskopWithScanner10 {
                     break;
 
                 case 2:
-                    System.out.println("Daftar Penonton:");
-                    for (int i = 0; i < 4; i++) {
-                        for (int j = 0; j < 2; j++) {
-                            if (penonton[i][j] != null) {
-                                System.out.println("Baris " + (i + 1) + ", Kolom " + (j + 1) + ": " + penonton[i][j]);
-                            } else {
-                                System.out.println("Baris " + (i + 1) + ", Kolom " + (j + 1) + ": ***");
-                            }
-                        }
+                System.out.println("Daftar Penonton:");
+                for (int i = 0; i < 4; i++) {
+                    if (penonton[i][0] != null) {
+                        System.out.println("Baris " + (i + 1) + ", Kolom-1 : " + penonton[i][0]);
                     }
-                    break;
-
+                    if (penonton[i][1] != null) {
+                        System.out.println("Baris " + (i + 1) + ", Kolom-2 : " + penonton[i][1]);
+                    }
+                }
+                break;
+            
                 case 3:
                     sc.close();
                     System.exit(0);
