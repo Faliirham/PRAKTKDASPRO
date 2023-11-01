@@ -1,7 +1,7 @@
 package jobsheet10;
 import java.util.Scanner;
 
-public class BisokopwithScanner10 {
+public class BioskopWithScanner10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
