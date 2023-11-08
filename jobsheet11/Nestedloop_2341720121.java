@@ -18,7 +18,7 @@ public class Nestedloop_2341720121 {
         }
 
         System.out.println("Data array:");
-        for (int i = 0; i < temps.length; i++,bln++) {
+        for (int i = 0; i < temps.length; i++) {
             System.out.println("Kota ke-" + i + ":");
             for (Double suhu : temps[i]) {
                 
