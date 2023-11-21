@@ -9,7 +9,7 @@ public class Square {
         System.out.print("Masukkan Nilai N : ");
         int N = sc.nextInt();
         for (int iout = 1; iout <= N; iout++) {
-        for (int i = 1; i <= N; i++) {
+            for (int i = 1; i <= N; i++) {
             System.out.print("*");
             
             }    
